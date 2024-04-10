@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>低光增强</title>
+      <link href="/2024/04/10/%E4%BD%8E%E5%85%89%E5%A2%9E%E5%BC%BA/"/>
+      <url>/2024/04/10/%E4%BD%8E%E5%85%89%E5%A2%9E%E5%BC%BA/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="进度汇报"><a href="#进度汇报" class="headerlink" title="进度汇报"></a>进度汇报</h2><pre><code class="bash">第二周汇报人：刘文雅小组成员继续学习 python 和 pytorch 基础观看相关的学习视频小组成员对论文进行理解批注，代码部分初步开始对应阅读和理解第三周汇报人：刘佳欣小组成员继续学习 python 和 pytorch 基础观看相关的学习视频小组成员对论文的理解批注进行探讨，已将代码部分逐一与论文内容匹配再次检查配置环境是否符合代码运行，开始运行代码第四周汇报人：刘佳欣小组成员开始学习论文和对应代码该代码以弱光图像作为输入，并产生高阶曲线作为其输出已跑通lowlight._test.py与lowlight_train.py，已观察test中result图片与原图对比第五周汇报人：陆彩云小组成员学习论文和对应代码了解模型架构，学习数据的处理与变换，掌握模型的输入输出讨论研究一条替换LE曲线使其弱光图像增强效果更好的曲线</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>智能机器人的面部表情识别之嘴部表情的生成</title>
       <link href="/2024/04/09/%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E9%9D%A2%E9%83%A8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB%E4%B9%8B%E5%98%B4%E9%83%A8%E8%A1%A8%E6%83%85%E7%9A%84%E7%94%9F%E6%88%90/"/>
       <url>/2024/04/09/%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E9%9D%A2%E9%83%A8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB%E4%B9%8B%E5%98%B4%E9%83%A8%E8%A1%A8%E6%83%85%E7%9A%84%E7%94%9F%E6%88%90/</url>
@@ -112,7 +125,7 @@
       <link href="/2024/04/01/%E7%A5%9E%E7%BB%8F%E8%BE%90%E5%B0%84%E5%9C%BA/"/>
       <url>/2024/04/01/%E7%A5%9E%E7%BB%8F%E8%BE%90%E5%B0%84%E5%9C%BA/</url>
       
-        <content type="html"><![CDATA[<p>项目介绍：<br>神经辐射场（Neural Radiance Field，简称 NeRF）是一种神经网络，可以从部分二维图像集重建复杂的三维场景。各种模拟、游戏、媒体和物联网 (IoT) 应用都需要三维图像，以使数字交互更加真实和准确。 NeRF 学习特定场景的场景几何形状、对象和角度，然后从新的视角渲染逼真的 3D 视图，自动生成合成数据来填补空白。它作为一种具有隐式场景表示的新型视场合成技术，在计算机视觉领域引起了广泛的关注。作为一种新颖的视图合成和三维重建方法，NeRF 模型在机器人、城市地图、自主导航、虚拟现实&#x2F;增强现实等领域都有广泛的应用。</p><p>小组成员：<br>于可晴<br>卢熙哲</p><h2 id="项目进度："><a href="#项目进度：" class="headerlink" title="项目进度："></a>项目进度：</h2><h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><pre><code class="bash">源代码模型已经跑通，官方数据集fern和flower都已经运行出结果。目前正在做自己的数据集。</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>项目介绍：<br>神经辐射场（Neural Radiance Field，简称 NeRF）是一种神经网络，可以从部分二维图像集重建复杂的三维场景。各种模拟、游戏、媒体和物联网 (IoT) 应用都需要三维图像，以使数字交互更加真实和准确。 NeRF 学习特定场景的场景几何形状、对象和角度，然后从新的视角渲染逼真的 3D 视图，自动生成合成数据来填补空白。它作为一种具有隐式场景表示的新型视场合成技术，在计算机视觉领域引起了广泛的关注。作为一种新颖的视图合成和三维重建方法，NeRF 模型在机器人、城市地图、自主导航、虚拟现实&#x2F;增强现实等领域都有广泛的应用。</p><p>小组成员：<br>于可晴<br>卢熙哲</p><h2 id="项目进度："><a href="#项目进度：" class="headerlink" title="项目进度："></a>项目进度：</h2><h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>源代码模型已经跑通，官方数据集fern和flower都已经运行出结果。<br>目前正在做自己的数据集。</p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
