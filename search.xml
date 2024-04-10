@@ -21,7 +21,7 @@
       <link href="/2024/04/09/%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E9%9D%A2%E9%83%A8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB%E4%B9%8B%E5%98%B4%E9%83%A8%E8%A1%A8%E6%83%85%E7%9A%84%E7%94%9F%E6%88%90/"/>
       <url>/2024/04/09/%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E9%9D%A2%E9%83%A8%E8%A1%A8%E6%83%85%E8%AF%86%E5%88%AB%E4%B9%8B%E5%98%B4%E9%83%A8%E8%A1%A8%E6%83%85%E7%9A%84%E7%94%9F%E6%88%90/</url>
       
-        <content type="html"><![CDATA[<p>课题介绍<br>智能机器人的面部表情识别应用广泛,我们小组以生成人脸嘴部表情作为案例研究，任务是生成特定表情的图片数据。这个任务是基于PyTorch 实现一个DCGAN(Deep Conxglutignal GAN)模型,用于生成人脸嘴部表情的逼真图像。DCGAN是一种生成对抗网络(GAN)的变体，通过卷积神经网络结构来实现图像的生成。<br>基于 Rxterch 框架，搭建 DCGAN生成器与判别器模型。生成器网络的输入是一个随机向量,这个随机向量是生成器网络的输入，用于生成逼真的人脸嘴部表情图像。生成器网络的输出是一个合成的图像，这个图像应当具有逼真的人脸嘴部表情特征。<br>判别器网络的输出是一个介于0和1之间的概率值,用于表示输入图像是真实图像的概率。如果输出接近1，则表示判别器认为输入图像是真实的:如果输出接近0，则表示判别器认为输入图像是生成器生成的假图像。</p><p>小组成员：</p><p>智能 2101 贺爽 2130330023</p><p>智能 2101 谢妍妮 2130330039</p><h2 id="课题进度"><a href="#课题进度" class="headerlink" title="课题进度"></a>课题进度</h2><h3 id="第五周"><a href="#第五周" class="headerlink" title="第五周"></a>第五周</h3><p>1.进一步进行尝试代码的运行，并思考代码运行中出现的问题。<br>2.查阅资料并尝试解决代码运行中的问题。<br>3.进一步学习了解多模态信息融合，逼真度评估等相关内容。</p><p>汇报人:贺爽 谢妍妮</p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="Deploy-to-remote-sites-1"><a href="#Deploy-to-remote-sites-1" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: [Deployment](</p>]]></content>
+        <content type="html"><![CDATA[<p>课题介绍<br>智能机器人的面部表情识别应用广泛,我们小组以生成人脸嘴部表情作为案例研究，任务是生成特定表情的图片数据。这个任务是基于PyTorch 实现一个DCGAN(Deep Conxglutignal GAN)模型,用于生成人脸嘴部表情的逼真图像。DCGAN是一种生成对抗网络(GAN)的变体，通过卷积神经网络结构来实现图像的生成。<br>基于 Rxterch 框架，搭建 DCGAN生成器与判别器模型。生成器网络的输入是一个随机向量,这个随机向量是生成器网络的输入，用于生成逼真的人脸嘴部表情图像。生成器网络的输出是一个合成的图像，这个图像应当具有逼真的人脸嘴部表情特征。<br>判别器网络的输出是一个介于0和1之间的概率值,用于表示输入图像是真实图像的概率。如果输出接近1，则表示判别器认为输入图像是真实的:如果输出接近0，则表示判别器认为输入图像是生成器生成的假图像。</p><p>小组成员：</p><p>智能 2101 贺爽 2130330023</p><p>智能 2101 谢妍妮 2130330039</p><h2 id="课题进度"><a href="#课题进度" class="headerlink" title="课题进度"></a>课题进度</h2><h3 id="第五周"><a href="#第五周" class="headerlink" title="第五周"></a>第五周</h3><p>1.进一步进行尝试代码的运行，并思考代码运行中出现的问题。<br>2.查阅资料并尝试解决代码运行中的问题。<br>3.进一步学习了解多模态信息融合，逼真度评估等相关内容。</p><p>汇报人:贺爽 谢妍妮</p><h3 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h3><p>1.进一步进行尝试代码的运行，并思考代码运行中出现的问题。<br>2.查阅资料并尝试解决代码运行中的问题。<br>3.进一步学习了解多模态信息融合，逼真度评估等相关内容。</p><p>汇报人:贺爽 谢妍妮</p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="Deploy-to-remote-sites-1"><a href="#Deploy-to-remote-sites-1" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: [Deployment](</p>]]></content>
       
       
       
@@ -30,7 +30,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>自监督学习</title>
       <link href="/2024/04/01/%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/"/>
       <url>/2024/04/01/%E8%87%AA%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0/</url>
       
@@ -43,7 +43,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>多实例异常检测</title>
       <link href="/2024/04/01/%E5%A4%9A%E5%AE%9E%E4%BE%8B%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/"/>
       <url>/2024/04/01/%E5%A4%9A%E5%AE%9E%E4%BE%8B%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</url>
       
@@ -56,7 +56,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>课程网站构建</title>
       <link href="/2024/04/01/%E8%AF%BE%E7%A8%8B%E7%BD%91%E7%AB%99%E6%9E%84%E5%BB%BA/"/>
       <url>/2024/04/01/%E8%AF%BE%E7%A8%8B%E7%BD%91%E7%AB%99%E6%9E%84%E5%BB%BA/</url>
       
@@ -82,7 +82,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>语音合成</title>
       <link href="/2024/04/01/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/"/>
       <url>/2024/04/01/%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90/</url>
       
@@ -95,11 +95,11 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>胸部X射线噪声分类</title>
       <link href="/2024/04/01/%E5%99%AA%E5%A3%B0%E8%83%B8%E9%83%A8%E5%88%86%E7%B1%BB/"/>
       <url>/2024/04/01/%E5%99%AA%E5%A3%B0%E8%83%B8%E9%83%A8%E5%88%86%E7%B1%BB/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>课题介绍</p><p>胸部X射线是常用的医疗影像学检查方法之一。然而X图像中可能存在各种噪声，这种噪声会影响图像的质量和诊断的结果。</p><p>因此该课题致力于胸部 X 射线噪声的分类工作。通过对大量胸部 X 射线图像数据的深入分析，精确开发噪声分类算法，以准确识别不同类型的噪声。进一步探究各类噪声对图像质量和诊断结果的具体影响，从而寻求降低噪声干扰的有效方法，为提升诊断准确性提供有力支持。</p><p>BoMD多标签描述符包方法</p><p>本文提出了一种专为有噪声多标签CXR(胸部x射线)学习设计的新方法，该方法可检测并平滑地重新标记数据集中的有噪声样本，以用于普通多标签分类器的训练。该方法通过将图像分割为多个区域并提取每个区域的特征描述符，然后将这些描述符组合成一个全局的特征向量表示图像。这种多标签描述符包的表示方式有助于减少噪声标签的影响，提高分类器的性能和鲁棒性。</p><p>小组成员</p><p>韦凤羽2130330038</p><p>周雯星2130330044</p><p>贾明先2130330027</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="第一周"><a href="#第一周" class="headerlink" title="第一周:"></a>第一周:</h3><pre><code class="bash">汇报人:贾明先</code></pre><p>1.小组人员广泛搜集胸部X射线和噪声分类领域的相关文献并且对论文有了一定的了解。</p><p>2.小组成员掌握了常见的图像处理方法和噪声分类方法。学习了python等相关编程的基础。</p><p>3.代码:小组成员安装和配置所需的软件和硬件设备，导入包和安装项目依赖。</p><p>4.正在尝试数据集的导入。</p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -134,7 +134,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>足球比分预测3</title>
       <link href="/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B3/"/>
       <url>/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B3/</url>
       
@@ -147,7 +147,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>足球比分预测2</title>
       <link href="/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B2/"/>
       <url>/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B2/</url>
       
@@ -160,7 +160,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>足球比分预测1</title>
       <link href="/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B1/"/>
       <url>/2024/04/01/%E8%B6%B3%E7%90%83%E6%AF%94%E5%88%86%E9%A2%84%E6%B5%8B1/</url>
       
@@ -173,7 +173,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>人体姿态估计</title>
       <link href="/2024/04/01/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1/"/>
       <url>/2024/04/01/%E4%BA%BA%E4%BD%93%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1/</url>
       
@@ -199,7 +199,7 @@
     
     
     <entry>
-      <title>机器学习</title>
+      <title>图像去噪</title>
       <link href="/2024/04/01/%E5%9B%BE%E5%83%8F%E5%8E%BB%E5%99%AA/"/>
       <url>/2024/04/01/%E5%9B%BE%E5%83%8F%E5%8E%BB%E5%99%AA/</url>
       
