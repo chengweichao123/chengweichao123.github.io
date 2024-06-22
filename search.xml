@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>掩模训练下的图像去噪</title>
+      <title>神经辐射场（二）</title>
       <link href="/2024/06/22/%E6%9D%A8%E4%B8%BD%E5%A8%9C/"/>
       <url>/2024/06/22/%E6%9D%A8%E4%B8%BD%E5%A8%9C/</url>
       
-        <content type="html"><![CDATA[<p>我们小组的课程设计主题是掩模训练下的图像去噪。基于深度学习的方法往往存在泛化能力不足的问题，为了增强去噪网络的泛化性能，以掩模训练的方法涉及屏蔽输入图像的随机像素，并在训练期间重建缺失的信息，此方法比其他深度学习模型表现出更好的泛化能力，并且直接适用于现实世界的场景。由于该技术目前已较为成熟，我们小组的实验任务为理解论文和代码，理解该技术思想以及跑通代码，进行实验。</p><h3 id="小组成员："><a href="#小组成员：" class="headerlink" title="小组成员："></a>小组成员：</h3><p>赵天奇 2130330043</p><p>马桂雪 2130330037</p><p>贾月华 2130330028</p><h2 id="课题进度"><a href="#课题进度" class="headerlink" title="课题进度"></a>课题进度</h2><h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>发现问题向老师请教后，解决大部分问题，目前仍有一个问题在解决中</p><h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>学习与所发现问题的相关知识</p><h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>代码已跑通，接下来的任务看懂代码，明白代码的意义</p><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>代码已跑通，接下来的任务看懂代码，明白代码的意义</p><h3 id="第五周："><a href="#第五周：" class="headerlink" title="第五周："></a>第五周：</h3><p>代码已跑通，接下来的任务看懂代码，明白代码的意义</p><h3 id="第六周："><a href="#第六周：" class="headerlink" title="第六周："></a>第六周：</h3><p>代码已跑通，接下</p><h3 id="第七周："><a href="#第七周：" class="headerlink" title="第七周："></a>第七周：</h3><p>写实验报告</p><h3 id="第八周："><a href="#第八周：" class="headerlink" title="第八周："></a>第八周：</h3><p>完善实验报告</p><h3 id="第九周："><a href="#第九周：" class="headerlink" title="第九周："></a>第九周：</h3><p>进度汇报</p>]]></content>
+        <content type="html"><![CDATA[<p>神经辐射场（Neural Radiance Fields，简称NeRF）是一种计算机视觉技术，用于生成高质量的三维重建模型。它利用深度学习技术从多个视角的图像中提取出对象的几何形状和纹理信息，然后使用这些信息生成一个连续的三维辐射场，从而可以在任意角度和距离下呈现出高度逼真的三维模型。NeRF技术在计算机图形学、虚拟现实、增强现实等领域有着广泛的应用前景。</p><h3 id="小组成员："><a href="#小组成员：" class="headerlink" title="小组成员："></a>小组成员：</h3><p>杨丽娜 2030330038</p><h2 id="课题进度"><a href="#课题进度" class="headerlink" title="课题进度"></a>课题进度</h2><h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>学习相关知识</p><h3 id="第二周："><a href="#第二周：" class="headerlink" title="第二周："></a>第二周：</h3><p>安装anaconda3 创建虚拟环境</p><h3 id="第三周："><a href="#第三周：" class="headerlink" title="第三周："></a>第三周：</h3><p>安装源包</p><h3 id="第四周："><a href="#第四周：" class="headerlink" title="第四周："></a>第四周：</h3><p>安装CUDA和pytorch</p><h3 id="第五周："><a href="#第五周：" class="headerlink" title="第五周："></a>第五周：</h3><p>安装库 准备数据集</p><h3 id="第六周："><a href="#第六周：" class="headerlink" title="第六周："></a>第六周：</h3><p>训练数据</p><h3 id="第七周："><a href="#第七周：" class="headerlink" title="第七周："></a>第七周：</h3><p>使用预训练模型</p><h3 id="第八周："><a href="#第八周：" class="headerlink" title="第八周："></a>第八周：</h3><p>写实验报告</p><h3 id="第九周："><a href="#第九周：" class="headerlink" title="第九周："></a>第九周：</h3><p>写实验报告</p>]]></content>
       
       
       
@@ -164,7 +164,7 @@
       <link href="/2024/04/01/%E4%BA%8E%E5%8F%AF%E6%99%B4/"/>
       <url>/2024/04/01/%E4%BA%8E%E5%8F%AF%E6%99%B4/</url>
       
-        <content type="html"><![CDATA[<p>项目介绍：<br>神经辐射场（Neural Radiance Field，简称 NeRF）是一种神经网络，可以从部分二维图像集重建复杂的三维场景。各种模拟、游戏、媒体和物联网 (IoT) 应用都需要三维图像，以使数字交互更加真实和准确。 NeRF 学习特定场景的场景几何形状、对象和角度，然后从新的视角渲染逼真的 3D 视图，自动生成合成数据来填补空白。它作为一种具有隐式场景表示的新型视场合成技术，在计算机视觉领域引起了广泛的关注。作为一种新颖的视图合成和三维重建方法，NeRF 模型在机器人、城市地图、自主导航、虚拟现实&#x2F;增强现实等领域都有广泛的应用。</p><p>小组成员：<br>于可晴<br>卢熙哲 2130330035</p><h2 id="项目进度："><a href="#项目进度：" class="headerlink" title="项目进度："></a>项目进度：</h2><h3 id="第一周："><a href="#第一周：" class="headerlink" title="第一周："></a>第一周：</h3><p>源代码模型已经跑通，官方数据集fern和flower都已经运行出结果。<br>目前正在做自己的数据集。</p>]]></content>
+        <content type="html"><![CDATA[<p>项目介绍：<br>神经辐射场（Neural Radiance Field，简称 NeRF）是一种神经网络，可以从部分二维图像集重建复杂的三维场景。各种模拟、游戏、媒体和物联网 (IoT) 应用都需要三维图像，以使数字交互更加真实和准确。 NeRF 学习特定场景的场景几何形状、对象和角度，然后从新的视角渲染逼真的 3D 视图，自动生成合成数据来填补空白。它作为一种具有隐式场景表示的新型视场合成技术，在计算机视觉领域引起了广泛的关注。作为一种新颖的视图合成和三维重建方法，NeRF 模型在机器人、城市地图、自主导航、虚拟现实&#x2F;增强现实等领域都有广泛的应用。</p><h3 id="小组成员："><a href="#小组成员：" class="headerlink" title="小组成员："></a>小组成员：</h3><p>于可晴 2130330040<br>卢熙哲 2130330035</p><h2 id="项目进度："><a href="#项目进度：" class="headerlink" title="项目进度："></a>项目进度：</h2><h3 id="第一到七周："><a href="#第一到七周：" class="headerlink" title="第一到七周："></a>第一到七周：</h3><p>源代码模型已经跑通，官方数据集fern和flower都已经运行出结果。<br>目前正在做自己的数据集。</p><h3 id="第八周："><a href="#第八周：" class="headerlink" title="第八周："></a>第八周：</h3><p>已经自己制作出来了数据集，并且跑通了结果，目前在写实验报告</p><h3 id="第九周："><a href="#第九周：" class="headerlink" title="第九周："></a>第九周：</h3><p>汇报课题完毕</p>]]></content>
       
       
       
